@@ -1,0 +1,11 @@
+node_modules
+.env
+test.ts
+package-lock.json
+db/copilot.txt
+tests
+tests/bntest.ts
+tests/buyTxTester.ts
+*.log
+logins
+test
