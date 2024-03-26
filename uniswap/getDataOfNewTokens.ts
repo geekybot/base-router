@@ -111,6 +111,7 @@ async function updatePriceEveryFiveMinutes() {
         
         if (price) {
             insertNewPrice(token.token,price.toString());
+            return;
         }
     })
 }
