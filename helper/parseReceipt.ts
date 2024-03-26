@@ -1,4 +1,4 @@
-const buy = require('../test/buyReceipt.json')
+// const buy = require('../test/buyReceipt.json')
 const { BigNumber } = require('bignumber.js');
 const swapTopic = "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822";
 export function parse(receipt: any) {
